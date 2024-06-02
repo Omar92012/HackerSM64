@@ -7,18 +7,18 @@
 /**
  * Changes Mario's ground turn radius by making it dependent on the analog stick magnitude and speed.
  */
-// #define VELOCITY_BASED_TURN_SPEED
+#define VELOCITY_BASED_TURN_SPEED
 
 /**
  * Allows Mario to easily side flip when moving forwards at any speed.
  */
-// #define SIDE_FLIP_AT_LOW_SPEEDS
+#define SIDE_FLIP_AT_LOW_SPEEDS
 
 /**
  * Allows Mario to aim towards a new direction at the end of turning around,
  * and allows Mario to turn around multiple times in a row.
  */
-// #define RESET_DIRECTION_WHEN_TURNING_AROUND
+#define RESET_DIRECTION_WHEN_TURNING_AROUND
 
 /**
  * Improved hanging:
@@ -26,7 +26,7 @@
  * - Precise turning control.
  * - Prevents falling from the edges.
  */
-// #define BETTER_HANGING
+#define BETTER_HANGING
 
 /**
  * Change the movement speed when hanging from a ceiling (the vanilla value is 4.0f, has no effect if BETTER_HANGING is enabled).
@@ -41,7 +41,7 @@
 /**
  * Disables fall damage.
  */
-#define NO_FALL_DAMAGE
+// #define NO_FALL_DAMAGE
 
 /**
  * Disables the scream that mario makes when falling off a great height (this is separate from actual fall damage).
@@ -66,7 +66,7 @@
 /**
  * Prevents hands-free holding.
  */
-// #define HANDS_FREE_HOLDING_FIX
+#define HANDS_FREE_HOLDING_FIX
 
 /**
  * Prevents Mario from losing his cap.
@@ -76,17 +76,17 @@
 /**
  * Uses Shindou's pole behavior.
  */
-// #define SHINDOU_POLES
+#define SHINDOU_POLES
 
 /**
  * If A and Z are pressed on the same frame while running, Mario will long jump instead of ground pound.
  */
-// #define EASIER_LONG_JUMPS
+#define EASIER_LONG_JUMPS
 
 /**
  * Enables the ability to hold Z while twirling to descend faster.
  */
-// #define Z_TWIRL
+#define Z_TWIRL
 
 /**
  * Disables bonks when ground pounding next to a wall.
@@ -101,7 +101,7 @@
 /**
  * Allows Mario to grab hangable ceilings from any state.
  */
-// #define HANGING_FIX
+#define HANGING_FIX
 
 /**
  * The maximum angle the player can wall kick, in degrees. 0..90. To allow 45 degree wall kicks, you must supply `46` to allow 45 and under.
@@ -146,4 +146,4 @@
  * These require Platform Displacement 2 to be enabled.
  */
 #define MARIO_INERTIA_UPWARD
-// #define MARIO_INERTIA_LATERAL
+#define MARIO_INERTIA_LATERAL

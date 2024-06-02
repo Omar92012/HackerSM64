@@ -17,7 +17,7 @@
 /**
  * Moving Coins flicker and disappear when they hit lava instead of being instantly deleted.
  */
-// #define COIN_LAVA_FLICKER
+#define COIN_LAVA_FLICKER
 
 /**
  * Allows for retries on collecting the remaining blue coins from a blue coin switch.
@@ -42,7 +42,7 @@
  * Floombas! These fellas sport custom behaviors (bhvFloomba, bhvFloombaTripletSpawner) and of course the iconic Floomba texture.
  * Also supports macros (macro_floomba, macro_huge_floomba, macro_tiny_floomba, macro_floomba_triplet_spawner, macro_floomba_quintuplet_spawner).
  */
-#define FLOOMBAS
+// #define FLOOMBAS
 
 /**************
  * -- HOOT --
@@ -56,7 +56,7 @@
 /**
  * Causes leaf particles to occasionally fall from trees which contain Hoot.
  */
-// #define HOOT_TREE_PARTICLES
+#define HOOT_TREE_PARTICLES
 
 /**************
  * -- MR I --
@@ -110,7 +110,7 @@
 /**
  * The number of chain balls the Chain Chomp has. Vanilla is 5.
  */
-#define CHAIN_CHOMP_NUM_SEGMENTS 5
+#define CHAIN_CHOMP_NUM_SEGMENTS 6
 
 /***************
  * -- POKEY --

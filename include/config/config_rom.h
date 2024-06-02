@@ -8,7 +8,7 @@
  * Internal ROM name. NEEDS TO BE **EXACTLY** 20 CHARACTERS. Can't be 19 characters, can't be 21 characters. You can fill it with spaces.
  * The end quote should be here:               "
  */
-#define INTERNAL_ROM_NAME "HackerSM64          "
+#define INTERNAL_ROM_NAME "Better64            "
 
 /**
  * Force the game to delete any existing save data originating from a different hack. This requires INTERNAL_ROM_NAME to be unique to work properly.
@@ -21,7 +21,7 @@
  * Enables Rumble Pak Support.
  * Currently not recommended, as it may cause random crashes.
  */
-// #define ENABLE_RUMBLE (1 || VERSION_SH)
+#define ENABLE_RUMBLE (1 || VERSION_SH)
 
 /**
  * The maximum number of supported players/controllers. 1-4.
@@ -29,12 +29,12 @@
  * NOTE: Default is 2, maximum is 4.
  * NOTE: This needs to be at least 2 for now for gamecube controller swap to work.
  */
-#define MAX_NUM_PLAYERS 2
+#define MAX_NUM_PLAYERS 4
 
 /**
  * Informs supported emulators to default to GameCube controller inputs.
  */
-// #define EMU_DEFAULT_TO_GCN
+#define EMU_DEFAULT_TO_GCN
 
 /**
  * Screen Size Defines.
